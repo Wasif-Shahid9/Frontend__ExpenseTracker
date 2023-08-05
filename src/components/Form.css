@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(177, 158, 158);
+  height: 100vh;
+
+  flex-direction: column;
+}
+.form input {
+  padding: 10px 3px;
+  margin: 10px;
+}
+button {
+  padding: 10px 3px;
+  margin: 10px;
+  background-color: rgb(159, 159, 51);
+}
+.history {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(76, 93, 76);
+  color: white;
+  width: 100%;
+  overflow-x: scroll;
+}
+::webkit{
+    border: 2px solid red;
+}
+.delete {
+  background-color: red;
+  color: white;
+}
